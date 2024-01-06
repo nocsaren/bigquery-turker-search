@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from datetime import datetime
 import locale
-
+Date = "2024-01-05"
 csv_file_path = "archive.csv"
 locale.setlocale(locale.LC_TIME, "tr_TR")
 
@@ -32,4 +32,5 @@ def generate_post(Date):
 
     return result_string
 
-print(generate_post("2024-01-04"))
+text = generate_post(Date)
+print(text)
