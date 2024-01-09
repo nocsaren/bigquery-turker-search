@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from datetime import datetime
 import locale
-Date = "2024-01-05"
+Date = "2024-01-07"
 csv_file_path = "archive.csv"
 locale.setlocale(locale.LC_TIME, "tr_TR")
 
